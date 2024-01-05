@@ -1,0 +1,159 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffe0; /* Light yellow background color */
+  color: #333; /* Default text color */
+  text-align: center; /* Center-align text within the body */
+}
+
+header {
+  background-color: #222;
+  color: #fff;
+  padding: 10px;
+}
+
+/* Other styles for your website */
+/* ... */
+
+/* Other styles for your website */
+/* ... */
+
+
+
+/* Other styles for your website */
+/* ... */
+
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+main {
+  padding: 00px;
+}
+
+/* Specific section styles */
+#home {
+  background-color: #ddd; /* Home section background color */
+}
+
+#games {
+  background-color: #ccc; /* Games section background color */
+}
+
+#about {
+  background-color: #bbb; /* About section background color */
+}
+
+#contact {
+  background-color: #aaa; /* Contact section background color */
+}
+
+footer {
+  background-color: #222; /* Footer background color */
+  color: #fff; /* Footer text color */
+  text-align: center;
+  padding: 10px 0;
+}
+/* Your existing CSS code */
+
+/* Add the new styles for the home section */
+#home {
+  display: none; /* Initially hide the home section */
+}
+
+#home.active {
+  display: block; /* Display the home section when it has the 'active' class */
+}
+
+/* Add other existing styles or new styles below this section */
+#games {
+  display: none; /* Initially hide the home section */
+}
+
+#games.active {
+  display: block; /* Display the home section when it has the 'active' class */
+}
+
+/* Add other existing styles or new styles below this section */
+#about {
+  display: none; /* Initially hide the home section */
+}
+
+#about.active {
+  display: block; /* Display the home section when it has the 'active' class */
+}
+
+/* Add other existing styles or new styles below this section */
+#contact {
+  display: none; /* Initially hide the home section */
+}
+
+#contact.active {
+  display: block; /* Display the home section when it has the 'active' class */
+}
+
+/* Add other existing styles or new styles below this section */
+/* Other CSS styles */
+/* Other CSS styles */
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  /* Your header styles */
+}
+
+main {
+  flex: 1;
+  /* Your main content styles */
+}
+
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 0px;
+  text-align: center;
+  margin-top: auto; /* Position the footer at the bottom */
+}
+/* Other CSS styles */
+
+/* Other CSS styles */
+
+.game-info-banner {
+  //background-color: #ffffff; /* Yellow background color */
+  color: #ffffff; /* Text color */
+  padding: 0px;
+  position: fixed;
+  top: calc(0px + 0px); /* Adjust to align just below the header */
+  right: 100%; /* Start position at the right edge */
+  white-space: nowrap;
+  animation: slideToLeft 20s linear infinite; /* Animation settings */
+}
+
+@keyframes slideToLeft {
+  0% {
+    left: 100%; /* Start position at the right edge */
+  }
+  100% {
+    left: -20%; /* End position at the left edge */
+  }
+}
